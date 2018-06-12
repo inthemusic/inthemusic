@@ -1,0 +1,46 @@
+.inthemusicOverlay {
+    position: relative;
+    bottom: 85px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    border-bottom: 2px solid #ddd;
+    float: left;
+}
+
+.inthemusicOverlay:nth-of-type(n) {
+    border: 0;
+    box-shadow: 0 1px 2px #888;
+}
+
+.inthemusicOverlay a {
+    display: block;
+    text-decoration: none;
+    color: #000;
+    text-align: center;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: bold;
+    overflow: hidden;
+    background: #d95050 url(http://res.cloudinary.com/dq7dviioh/image/upload/v1526541830/arrow_white.png) no-repeat right 14px center;
+}
+
+.inthemusicOverlay .title {
+    display: block;
+    text-align: center;
+    background: #fff;
+    margin-right: 35px;
+    padding: 10px 15px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.inthemusicOverlay:after {
+    content: '';
+    position: absolute;
+    margin-left: -12px;
+    left: 50%;
+    bottom: -12px;
+    width: 22px;
+    height: 12px;
+    background: url('http://res.cloudinary.com/dq7dviioh/image/upload/v1526541830/vertex_white.png')
+}
