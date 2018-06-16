@@ -3,10 +3,10 @@
 */
 
 var mapContainer = document.getElementById('map');
-var customInformation = mapContainer.getAttribute('class').replace(/\s/g, "").split(',');
+var customInformation = mapContainer.getAttribute('class').split(',');
 
-var lat = customInformation[0];
-var lng = customInformation[1];
+var lat = customInformation[0].replace(/\s/g, "");
+var lng = customInformation[1].replace(/\s/g, "");
 var locationName = customInformation[2];
 
 var mapOption = {
