@@ -20,8 +20,9 @@
     border-radius: 6px;
     font-size: 14px;
     font-weight: bold;
+    white-space: nowrap;
     overflow: hidden;
-    background: #d95050 url(http://res.cloudinary.com/dq7dviioh/image/upload/v1526541830/arrow_white.png) no-repeat right 14px center;
+    background: #eb6868 url(http://res.cloudinary.com/dq7dviioh/image/upload/v1526541830/arrow_white.png) no-repeat right 14px center;
 }
 
 .inthemusicOverlay .title {
