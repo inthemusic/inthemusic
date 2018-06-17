@@ -14,11 +14,24 @@
 }
 
 .inthemusicOverlay a,
-.inthemusicOverlay a:hover,
-.inthemusicOverlay a:active {
+.inthemusicOverlay a:active,
+.inthemusicOverlay a:visited {
     display: block;
     text-decoration: none;
     color: #000;
+    text-align: center;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: bold;
+    white-space: nowrap;
+    overflow: hidden;
+    background: #eb6868 url(http://res.cloudinary.com/dq7dviioh/image/upload/v1526541830/arrow_white.png) no-repeat right 14px center;
+}
+
+.inthemusicOverlay a:hover {
+    display: block;
+    text-decoration: none;
+    color: #eb6868;
     text-align: center;
     border-radius: 6px;
     font-size: 14px;
