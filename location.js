@@ -1,7 +1,4 @@
-/*
-    로케이션에 들어가는 다음 지도 API - START
-*/
-
+/* 다음 지도 API START */
 var mapContainer = document.getElementById('map');
 var customInformation = mapContainer.getAttribute('class').split(',');
 
@@ -54,7 +51,4 @@ var customOverlay = new daum.maps.CustomOverlay({
 
 var locationLink = 'http://map.daum.net/link/map/' + locationName + ',' + lat + ',' + lng;
 document.querySelector('#customLocationLink').setAttribute('href', locationLink);
-
-/*
-    로케이션에 들어가는 다음 지도 API - END
-*/
+/* 다음 지도 API END */

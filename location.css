@@ -1,3 +1,4 @@
+/* 다음 지도 CSS START */
 .inthemusicOverlay {
     position: relative;
     bottom: 85px;
@@ -12,7 +13,9 @@
     box-shadow: 0 1px 2px #888;
 }
 
-.inthemusicOverlay a {
+.inthemusicOverlay a,
+.inthemusicOverlay a:hover,
+.inthemusicOverlay a:active {
     display: block;
     text-decoration: none;
     color: #000;
@@ -45,3 +48,4 @@
     height: 12px;
     background: url('http://res.cloudinary.com/dq7dviioh/image/upload/v1526541830/vertex_white.png')
 }
+/* 다음 지도 CSS END */
