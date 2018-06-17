@@ -15,6 +15,7 @@
 
 .inthemusicOverlay a,
 .inthemusicOverlay a:active,
+.inthemusicOverlay a:focus,
 .inthemusicOverlay a:visited {
     display: block;
     text-decoration: none;
